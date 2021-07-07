@@ -1,5 +1,7 @@
 pluginManagement {
 	repositories {
+		// aliyun镜像
+		maven { url 'https://maven.aliyun.com/nexus/content/groups/public/'}
 		mavenCentral()
 		gradlePluginPortal()
 	}
